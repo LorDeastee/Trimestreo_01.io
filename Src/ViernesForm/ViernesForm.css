@@ -1,0 +1,123 @@
+* {
+    
+}
+body{
+    background-image: url("Fondo.png");
+   
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Name {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.Contendor {
+    width: 1000px;
+    height: 560px;
+    background-image: url('Fondo.png');
+    border: solid, black;
+    display: flex;
+}
+
+.LineraHorizontal {
+    width: 170px;
+    height: 99%;
+    border: solid, #ffa92d;
+    background-color: #ffa92d;
+}
+
+.Encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Encabezados {
+
+    height: 150px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.Encabezados img {
+    margin-left: 50px;
+}
+
+.Listado {
+    width: 102ch;
+    height: 99vh;
+
+    display: flex;
+    flex: 1;
+}
+
+.Mes {
+    width: 100%;
+
+}
+
+.MesesId {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+
+}
+
+.ContList {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.idPredict {
+   
+   text-align: left;
+   padding-left: 2px;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    margin-top: 10px;
+    font-size: 170%;
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Descarga{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#Descarga:hover{
+    background-color: #ffa92d;
+    color: white;
+    border: solid,black;
+}
+@media (min-width:300px){
+    body{
+        background-image: url('Fondo.png');
+        background-color: rgba(237,232,228,255);
+    }
+   .Contendor {
+    width: 1100px;
+    height: 570px;
+    
+    border: solid, black;
+    display: flex;
+}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FormularioDeListado.css">
+    
+    
+    <title>Listados</title>
+</head>
+<body>
+    <div class="SubContenedor">
+        <div class="Contenedor">
+            <h1>Eliga un Trimestre</h1>
+        <div class="Trimestres">
+            
+                <div class="list">
+                    <a onclick="Dias(1)">Trimestre l</a>
+                </div>
+                <div class="list">
+                    <a onclick="Dias(2)">Trimestre ll</a>
+                </div>
+                <div class="list">         
+                    <a onclick="Dias(3)">Trimestre lll</a>
+                </div>   
+                <div class="list">
+                    <a onclick="Dias(4)">Trimestre lV</a>
+                </div>
+       
+        </div>
+      
+        <div class="FechasDisponibles" id="FechasDisponibles"></div>
+        <button onclick="NombresPredicadores()" id="Boton">CREAR</button>
+        </div>
+    </div>
+</body>
+<script src="FormularioDeListado.js"></script>
+</html>

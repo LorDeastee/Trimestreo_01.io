@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+   
+}
+body{
+    background-color:antiquewhite ;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.SubContenedor{
+   width: 100%;
+   height: 99vh;
+   display: flex;
+    background-color: antiquewhite;
+   justify-content: center;
+
+}
+.Contenedor{
+    width: 350px;
+    min-height: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Trimestres{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.list{
+    width:70%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+   
+    
+  
+
+}
+a{
+     display: flex;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 20px;
+   border: solid,black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+a:hover{
+  box-shadow: inset 100px 59px 30px #54b3d6;
+  color: white;
+  border: none;
+}
+#contenedorSp{
+    padding: 3px;
+    background-color: #54b3d6;
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FechaPredicacion{
+    font-size: 30px;
+    width: 30px;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+   
+   
+}
+.Predicadores{
+    margin-left: 10px;
+    min-width: 70%;
+    height: 90%;
+    font-size: 30px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    padding: 4px;
+}
+#Boton{
+    margin-top: 10px;
+    background-color: transparent;
+    border: solid,black;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Boton:hover{
+    background-color: #54b3d6;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
