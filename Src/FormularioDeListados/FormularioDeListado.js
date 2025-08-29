@@ -117,11 +117,11 @@ function NombresPredicadores() {
 
     if (valor == 6) {
   
-        window.location.href = "/Src/SabadoForm/SabadoForm.html";
+        window.location.href = "/Trimestreo_01.io/Src/SabadoForm/SabadoForm.html";
     } else if (valor == 3) {
-        window.location.href = "Src/MiercolesForm/MiercolesForm.html";
+        window.location.href = "/Trimestreo_01.io/Src/MiercolesForm/MiercolesForm.html";
     } else if (valor == 5) {
-        window.location.href = "Src/ViernesForm/ViernesForm.html";
+        window.location.href = "/Trimestreo_01.io/Src/ViernesForm/ViernesForm.html";
     }
 
 }
